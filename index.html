@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070812">
+  <title>A Little Something — Teachers' Day 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <div class="noise"></div>
+
+  <main>
+    <section class="screen active" id="welcome">
+      <div class="orbit"><span>✦</span></div>
+      <p class="kicker">05 September 2026 • A digital surprise</p>
+      <h1>There are things<br>worth <em>remembering.</em></h1>
+      <p class="lead">Lessons. Questions. Laughter. And the people who make an ordinary classroom extraordinary.</p>
+      <p class="created">Created by <strong>Sayed Yahya Jafri</strong> • Class XI</p>
+      <button class="glow-btn" data-next="reveal">Begin the experience <b>→</b></button>
+    </section>
+
+    <section class="screen" id="reveal">
+      <div class="counter">01 — 05</div>
+      <p class="kicker">A thought</p>
+      <h2>Every teacher leaves<br><em>a little light behind.</em></h2>
+      <div class="thought">
+        <span class="quote">“</span>
+        <p>A syllabus tells us <strong>what</strong> to learn. A teacher can change <strong>how</strong> we see the world.</p>
+        <small>And that is something no textbook can measure.</small>
+      </div>
+      <button class="line-btn" data-next="words">There's more <span>→</span></button>
+    </section>
+
+    <section class="screen" id="words">
+      <div class="counter">02 — 05</div>
+      <p class="kicker">The things that stay</p>
+      <h2>What remains<br><em>after the lesson?</em></h2>
+      <div class="word-cloud" id="wordCloud"></div>
+      <p class="impact-note">And somehow, even one word doesn't feel big enough.</p>
+      <button class="line-btn" data-next="message">Continue <span>→</span></button>
+    </section>
+
+    <section class="screen" id="message">
+      <div class="counter">03 — 05</div>
+      <p class="kicker">A message</p>
+      <div class="reveal-lines">
+        <p>You teach us lessons.</p>
+        <p>But sometimes…</p>
+        <p><strong>you teach us to believe we can learn.</strong></p>
+        <p>You answer questions.</p>
+        <p>But sometimes…</p>
+        <p><strong>you make us confident enough to ask them.</strong></p>
+        <p>You correct our mistakes.</p>
+        <p>But sometimes…</p>
+        <p><strong>you teach us not to be afraid of making them.</strong></p>
+      </div>
+      <button class="line-btn" data-next="final-message">One last message <span>→</span></button>
+    </section>
+
+    <section class="screen" id="final-message">
+      <div class="counter">04 — 05</div>
+      <p class="kicker">To every teacher</p>
+      <h2>Some lessons end<br>when the bell rings.</h2>
+      <p class="final-text">The best ones don't.</p>
+      <p class="final-text">Thank you for your time, your patience, your guidance, your encouragement, your corrections, your questions — and for all the little moments that become memories.</p>
+      <p class="final-text">We may not remember every chapter forever.</p>
+      <p class="final-text"><strong>But we'll remember the people who helped us through them.</strong></p>
+      <button class="glow-btn" id="finalBtn">There's one last thing <b>✦</b></button>
+    </section>
+
+    <section class="screen" id="end">
+      <div class="counter">05 — 05</div>
+      <div class="final-symbol">✦</div>
+      <p class="kicker">Happy Teachers' Day</p>
+      <h2>Because some people<br>deserve more than<br><em>just a “Thank You.”</em></h2>
+      <div class="big-thanks">THANK<br>YOU.</div>
+      <p class="end-note">For being part of our journey — and for leaving something behind that lasts much longer than a lesson.</p>
+      <div class="from">
+        <span>With gratitude,</span>
+        <strong>Sayed Yahya Jafri</strong>
+        <small>Class XI • 2026</small>
+      </div>
+      <p class="love">crafted with love ❤️ by Sayed Yahya Jafri • 2026</p>
+      <button class="line-btn" id="restart">↻ Experience it again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
